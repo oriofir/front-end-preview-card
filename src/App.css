@@ -35,6 +35,8 @@
   align-items:flex-start;
   justify-content: space-around;
   padding-left: 2rem;
+  padding-right: 5px;
+  
   
   
 }
@@ -43,6 +45,7 @@
   font-family: Fraunces;
   font-size: 30px;
   line-height: 1;
+  padding-right: 50px;
 
 }
 
@@ -51,6 +54,7 @@
   color: var(--dark-grayish-blue);
   font-size: 14px;
   letter-spacing: .2em;
+  padding-top: 10px;
 }
 
 .description {
@@ -90,7 +94,9 @@ button {
   border-radius: 5px;
   align-items: center;
   justify-content: center;
-  font-weight:bold
+  font-weight:bold;
+  padding: 10px;
+  margin-bottom: 10px;
   
 }
 
