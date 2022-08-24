@@ -1,14 +1,14 @@
-import logo from "./logo.svg";
 import Image from "./images/image-product-desktop.jpg";
+import iconCart from "./images/icon-cart.svg";
 import "./App.css";
 
 function App() {
   return (
     <>
       <div className="container">
-        <img src={Image} alt="Image" />
+        <img className="perfume-image" src={Image} alt="Image" />
         <main className="text">
-          <div className="perfume">Perfume</div>
+          <div className="perfume">PERFUME</div>
           <div className="title">
             Gabrielle <br />
             Essence Eau De <br />
@@ -22,7 +22,9 @@ function App() {
             <div className="New-price">$149.99</div>
             <div className="Old-price">$169.99</div>
           </div>
-          <button className="cart">Add to Cart</button>
+          <button className="cart">
+            <img className="cart-icon" src={iconCart} alt="icon" /> Add to Cart
+          </button>
         </main>
       </div>
     </>
