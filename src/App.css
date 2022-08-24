@@ -8,10 +8,28 @@
 
 .container {
   background-color: var(--cream);
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+img {
+  height: 400px;
+  width: 300px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .text {
+  display: flex;
   background-color: white;
+  height: 400px;
+  width: 300px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  flex-direction: column;
+  
  
 }
 
@@ -21,10 +39,34 @@
 
 .perfume {
   font-family: Montserrat;
+  color: var(--dark-grayish-blue);
 }
 
 .description {
   font-family: Montserrat;
+  color: var(--dark-grayish-blue);
+  font-size: 14px;
 }
 
+.New-price{
+  font-family: Fraunces;
+  color: var(--dark-cyan);
+}
+.Old-price{
+  font-family: Montserrat;
+  color: var(--dark-grayish-blue);
+  text-decoration: line-through;
+}
+
+button {
+  font-family: Montserrat;
+  background-color: var(--dark-cyan);
+  color: white;
+  border: none;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: row;
+}
 

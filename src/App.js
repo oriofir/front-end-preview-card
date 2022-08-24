@@ -9,13 +9,19 @@ function App() {
         <img src={Image} alt="Image" />
         <main className="text">
           <div className="perfume">Perfume</div>
-          <div className="title">Gabrielle Essence Eau De Perfum</div>
+          <div className="title">
+            Gabrielle <br />
+            Essence Eau De <br />
+            Perfum
+          </div>
           <div className="description">
             A floral, solar, and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANNEL.
           </div>
-          <div className="Old-price">$169.99</div>
-          <div className="New-price">$149.99</div>
+          <div className="price-container">
+            <div className="New-price">$149.99</div>
+            <div className="Old-price">$169.99</div>
+          </div>
           <button className="cart">Add to Cart</button>
         </main>
       </div>
